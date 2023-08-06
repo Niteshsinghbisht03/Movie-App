@@ -3,12 +3,13 @@ import { Router, Route, BrowserRouter, Routes } from "react-router-dom";
 import { fetchDataFromApi } from "./utils/api";
 import { useSelector, useDispatch } from "react-redux";
 import { getApiConfiguration, getGenres } from "./store/homeslice";
-import Header from "./components/header/header";
+
+import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import Home from "./pages/home/home";
-import Detail from "./pages/detail/detail";
-import SearchResult from "./pages/searchResult/searchResult";
-import Explore from "./pages/explore/explore";
+import Home from "./pages/home/Home";
+import Detail from "./pages/detail/Detail";
+import SearchResult from "./pages/searchResult/SearchResult";
+import Explore from "./pages/explore/Explore";
 import PageNotfound from "./pages/404/PageNotfound";
 
 function App() {
